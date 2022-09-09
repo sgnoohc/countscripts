@@ -36,4 +36,4 @@ Which spits out
 
 Then run the plotting script
 
-    
+    python countscripts/plot_pages.py
