@@ -26,3 +26,14 @@ Then the following script would get all the commits and then compile the `thesis
 
     sh countscripts/countall.sh
 
+Since `git show -s --format=%ci` has different format from what was expected from `plot_pages.py` there is a converter script.
+
+    sh countscripts/convert_time.sh
+
+Which spits out
+
+    countscripts/pages_converted.md
+
+Then run the plotting script
+
+    
